@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    background-color: #f9f9f9;
+}
+header {
+    background: url("img/header.jpg");
+    margin: 0;
+    padding: 10px;
+    height: 440px;
+}
+header h1 {
+    margin: 10% 0;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    color: white;
+    font-weight: lighter;
+}
+nav {
+
+}
+footer {
+height: 150px;
+
+    display: flex;
+ align-items: center;
+    background-color: #A07129;
+}
+footer p {
+   margin-left: 20px;
+    flex-basis: 100%;
+    font-size: 25px;
+}
+
+main {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+#main-content {
+    flex-basis: 70%;
+}
+#aside {
+    flex-basis: 30%;
+    text-align: center;
+
+ }
+#aside h4 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+#aside ul {
+    list-style: none;
+    padding: 0;
+}
+#about{
+    margin-top: 60px;
+}
+.blog-post {
+
+    margin: 40px 20px;
+    width: 90%;
+    padding: 7px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 4px 7px rgba(0, 0, 0, 0.47);
+}
+.blog-post h2 {
+    padding: 0;
+    margin: 0;
+}
+.blog-post-meta {
+    margin: 2px;
+    font-weight: bold;
+}
+#main-content::-webkit-scrollbar {
+    display: none;
+}
